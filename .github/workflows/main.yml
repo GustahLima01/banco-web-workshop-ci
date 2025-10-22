@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Instalando o servidor de mock
-        run: npm mock-server &
+        run: npm run mock-server &
 
       - name: Instalando servidor de aplicacao
         run: npm run server &
